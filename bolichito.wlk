@@ -4,7 +4,7 @@ import materiales.*
 import personas.*
 
 object bolichito {
-    var cosaEnMostrador = remera
+    var cosaEnMostrador = remera 
     var cosaEnVidriera = pelota
 
     method elBolichitoEsBrillante(){
@@ -35,11 +35,11 @@ object bolichito {
         return cosaEnVidriera.leGusta()
     }
 
-    method cambiarPosicionUnaCosa(unaCosa){
+    method cambiarPosicionUnaCosa(){
         cosaEnMostrador = cosaEnVidriera
     }
 
-    method cambiarPosicionOtraCosa(otraCosa){
+    method cambiarPosicionOtraCosa(){
         cosaEnVidriera = cosaEnMostrador  
     }
 }
